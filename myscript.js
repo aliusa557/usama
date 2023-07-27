@@ -35,7 +35,7 @@ function sendEmail() {
 function downloadCV() {
   // Replace "cv_file_path.pdf" with the actual path to your CV file.
   // You can use a direct link to the file or use a relative path to the file from the HTML file location.
-  const cvFilePath = "cv_file_path.pdf";
+  const cvFilePath = "https://github.com/aliusa557/usama/raw/main/CV.UsamaMehboob.pdf";
 
   // Create an anchor element to trigger the download
   const anchor = document.createElement("a");
@@ -43,6 +43,7 @@ function downloadCV() {
   anchor.download = "CV.UsamaMehboob.pdf"; // Change the name of the downloaded CV file
   anchor.click();
 }
+
 
 // Function to handle the "Hire Me" button click
 function handleHireMe() {
