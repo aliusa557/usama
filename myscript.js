@@ -45,6 +45,7 @@ function downloadCV() {
 }
 
 
+
 // Function to handle the "Hire Me" button click
 function handleHireMe() {
   // Replace "your_email_address" with your email address.
